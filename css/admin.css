@@ -1,0 +1,151 @@
+/*
+ author: Waruni Lalendra
+ Theme: food ordered website 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 50%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: rgb(99, 99, 230);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: rgb(60, 60, 233);
+}
+
+.btn-secondary{
+    background-color: rgb(68, 194, 68);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(10, 128, 10);
+}
+
+.btn-danger{
+    background-color:rgb(221, 70, 70);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: rgb(231, 27, 27);
+}
+
+.sucess{
+    color: rgb(20, 173, 20);
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+
+/*CSS for menu*/
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#e74c3c;
+}
+
+.menu ul li a:hover{
+    color:#c0392b;
+}
+
+
+
+/*CSS for main content*/
+
+.main-content{
+    background-color: #ecf0f1;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*Css for footer*/
+
+.footer{
+    background-color: #e74c3c;
+    color: rgb(255, 255, 255);
+}
+
+/*CSS for login*/
+
+.login{
+    width: 20%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+}
